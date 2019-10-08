@@ -15,8 +15,6 @@
  */
 package org.japo.java.main;
 
-import java.util.Locale;
-
 /**
  *
  * @author Mario Merlos Abella <mario.merlos.alum@iescamp.es>
@@ -24,8 +22,8 @@ import java.util.Locale;
 public class Main {
 
     public static void main(String[] args) {
-        double altura;
-        altura = 1.75;
-        System.out.printf(Locale.ENGLISH, "Mi altura es .............: %.2f metros%n", altura);
+        boolean permisoOK;
+        permisoOK = true;
+        System.out.printf("Permiso de circulación ...: %b%n", permisoOK);
     }
 }
