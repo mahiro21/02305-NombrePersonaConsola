@@ -22,8 +22,8 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
-        boolean permisoOK;
-        permisoOK = true;
-        System.out.printf("Permiso de circulación ...: %b%n", permisoOK);
+        char letraDNI;
+        letraDNI = 'K';
+        System.out.printf("Letra DNI ................: %c%n", letraDNI);
     }
 }
